@@ -11,7 +11,7 @@ const questionSchema = new mongoose.Schema({
     type: Array
   },
   categoryId: {
-    type: Number
+    type: mongoose.Schema.Types.ObjectId
   }
 })
 
